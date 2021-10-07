@@ -3,17 +3,12 @@
 for n in range(1, 100):
 
     if n % 35 == 0:
-        print("FizzBuzz")
-        continue
-
+        print("FizzBuzz", end=",")
     elif n% 5 == 0:
-        print("Fizz")
-        continue
-
+        print("Fizz", end=",")
     elif n% 7 == 0:
-        print("Buzz")
-        continue
-
+        print("Buzz", end=",")
+    else:
     print(n)
 
  # 2. Christmas tree
