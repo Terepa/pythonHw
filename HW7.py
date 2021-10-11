@@ -1,9 +1,3 @@
-def calc(a,b=5,c=10):
-
-    return a+b+c
-
-print(calc(5) + calc(10,20) + calc(1,2,3))
-
 # 1. The Big Result
 #
 # Write an add_mult function that requires three parameters / arguments
