@@ -9,20 +9,20 @@
 # Various solutions are possible (you are allowed to use other data structures inside function such as list).
 #
 # Example add_mult (2,5,4) -> will return (2 + 4) * 5 = 30
-
-
-
-def add_mult(*my_nums):
-    my_nums = [int(t) for t in input("Enter three values separated by whitespace: ").split(" ")]
-    my_nums.sort()
-    result = (my_nums[0]+my_nums[1]) * my_nums[-1]
-    return result
-
-print(add_mult())
-
-
-
-
+#
+#
+#
+# def add_mult(*my_nums):
+#     my_nums = [int(t) for t in input("Enter three values separated by whitespace: ").split(" ")]
+#     my_nums.sort()
+#     result = (my_nums[0]+my_nums[1]) * my_nums[-1]
+#     return result
+#
+# print(add_mult())
+#
+#
+#
+#
 
 #
 # 2. Palindrome
@@ -43,21 +43,16 @@ print(add_mult())
 #
 
 
-
-def is_palindrome(input_text):
-    input_text = input_text.replace(" ", "").lower()
-    reversed_text = input_text[::-1]
-    return input_text == reversed_text
-
-
-
-
-
-
-
-
-
-
+#
+# def is_palindrome(input_text):
+#     input_text = input_text.replace(" ", "").lower()
+#     reversed_text = input_text[::-1]
+#     return input_text == reversed_text
+#
+#
+#
+result = set([1,2,3]) & set([2,3,4,5]))
+print(result)
 
 
 
